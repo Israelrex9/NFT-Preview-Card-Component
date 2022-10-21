@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D192C;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 152px;
+}
+
+.NFT-Card{
+    width: 302px;
+    background-color: #15263F;
+    color: white;
+    border-radius: 15px;
+    padding: 24px;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100%;
+    border-radius: 8px;
+    margin: 0px;
+}
+.image{
+    width: 302px;
+    height: 302px;
+    align-items: center;
+    margin: 0px;
+}
+
+.NFT-Details{
+    max-width: 302px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border: 0;
+    margin: 0px;
+}
+
+h1{
+    text-align: left;
+    font-size: 22px;
+    line-height: 27.72px;
+    font-weight: 600;
+    color: white;
+}
+h1:hover{
+    color: #00FFF8;
+}
+p{
+    margin: 0;
+    color:#8BACD9;
+}
+.paragraph{
+    color: #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.lower-content{
+    width: 301px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.price{
+    justify-content: left;
+    display: flex;
+}
+.ETH-Price{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    color: #00FFF8;
+    margin-left: 6px;
+}
+.duration{
+    justify-content: right;
+    display: flex;
+}
+.duration-time{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 6px;
+    color:#8BACD9;
+}
+.rectangle{
+    width: 302px;
+    height: 1px;
+    background-color: #2E405A;
+}
+.creator{
+    margin-top: 16px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+.creator-details{
+    display: flex;
+    margin-left: 16px;
+    padding: 0%;
+}
+.creator-name{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+    line-height: 20.16px;
+}
+.creator-name:hover{
+    color:#00FFF8;
+}
+
+@media screen and (max-width: 375px){
+    .NFT-Card{
+        width: 278px;
+        background-color: #15263F;
+        color: white;
+        border-radius: 15px;
+        padding: 24px;
+        margin: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 278px;
+        height: 278px;
+        align-items: center;
+        margin: 0px;
+    }
+    .NFT-Details{
+        max-width: 278px;
+    }
+    .lower-content{
+        width: 278px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .rectangle{
+        width: 278px;
+        height: 1px;
+        background-color: #2E405A;
+    }
+    
+}
